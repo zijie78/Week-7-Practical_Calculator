@@ -34,4 +34,4 @@ jobs:
     
       - name: Run Behave tests
         run: |
-          behave  # Make sure features/ directory exists in your repo
+          behave features/  # Make sure features/ directory exists in your repo
